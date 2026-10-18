@@ -38,8 +38,8 @@ builds:
       - "-tags=release,fullstack"
     goos:
       - linux
-      - windows
       - darwin
+      - freebsd
     goarch:
       - amd64
       - arm64
