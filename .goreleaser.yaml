@@ -38,7 +38,6 @@ builds:
       - -s -w -X github.com/dujiao-next/internal/version.Version={{.Tag}} -X github.com/dujiao-next/internal/version.BuildType=release
     flags:
       - -trimpath
-      - -buildmode=pie
       - -buildvcs=true
       - -tags=release,fullstack
     goos:
